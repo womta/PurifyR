@@ -440,6 +440,17 @@ LoadR = function(DT) {
   return(DT)
 }
 
+#' ScanR'
+#' 
+#' This function 'scans' the data in the right format (data.table)
+#' @param DT This is a data.table object
+#' @param correlationCutoff This is a data.table object
+#' @param SamplingPercentage This is a data.table object
+#' @param percentUniqueCutoff This is a data.table object
+#' @return a data.table with all kinds of statistics of the DT object
+#' @export
+#' @examples
+#' rs = ScanR(DT, correlationCutoff=0.99, SamplingPercentage=15, percentUniqueCutoff=5)
 
 #########
 # ScanR #
