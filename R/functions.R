@@ -426,6 +426,7 @@ detectGarbage=function(i) {
 #########
 # LoadR #
 #########
+
 LoadR = function(DT) {
   if(class(DT)[1]=='character') {
     cat('assuming a link to a flat file')
