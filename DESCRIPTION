@@ -1,0 +1,16 @@
+Package: PurifyR
+Type: Package
+Version: 0.7
+Date: 2019-25-01
+Title: A R Package for Highly Automated Reproducible Variable Extraction and Standardization
+Author: Wienand Omta
+Maintainer: Wienand Omta <wienand@corelifeanalytics.com>
+Depends: R (>= 3.5), data.table, parallel, dplyr, DT, scales, MASS
+Imports:
+Suggests:
+Description: A set of functions that allows for fully automated preprocessing. I.e. managing unique and allowed variable names, feature selection, managing singularity, normality, scaling, missing data. In other words the preparation of data for further analysis e.g. explorative, descriptive or predictive analysis.
+License: MIT
+NeedsCompilation: no
+RoxygenNote: 6.1.1
+
+
