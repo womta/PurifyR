@@ -444,9 +444,10 @@ LoadR = function(DT) {
 #' 
 #' This function 'scans' the data in the right format (data.table)
 #' @param DT This is a data.table object
-#' @param correlationCutoff This is a data.table object
-#' @param SamplingPercentage This is a data.table object
-#' @param percentUniqueCutoff This is a data.table object
+#' @param correlationCutoff This is a threshold for features that are inspected for missing data 
+#' and the feature with the lowest missing data is kept 
+#' @param SamplingPercentage This is the percentage of data where decisions are being made on
+#' @param percentUniqueCutoff This is the minimum percentage of uniqueness a variable must have
 #' @return a data.table with all kinds of statistics of the DT object
 #' @export
 #' @examples
